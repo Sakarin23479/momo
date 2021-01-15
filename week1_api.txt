@@ -1,0 +1,24 @@
+remote Resposibility >> เก็บประวัติการเปลี่ยนแปลงข้อมูลของเรา จากเครื่องอื่นได้
+
++	-  >> แก้ไข 1 บรรทัด
++	 >> เพิ่ม 1 บรรทัด
+	-  >> ลบ 1 บรรทัด
+
+git init >> make folder tobe working directory
+git status >> เช็คสถานะ 
+git add [file] >> เอาไฟล์อะรใส่ในกระดาษบ้าง
+git config user.name [full name]
+git config user.email [email]
+git comit -m [commit message]>> บันทึกลงไปใน directory
+git log >> ดูรายละเอียด
+git log --online >> ย่อรายละเอียด
+git remote add [ชื่อ  ของ  remote Resposibility(remote repro)] >> ทำอะไรกับ remote นี้
+git remote -v >> อธิบายสิ่งต่างๆที่อยู่ในคำสั่งให้เราเห็น
+	คำสั่ง
+	git remote add origin https://github.com/Sakarin23479/hello-git.git
+	ผลลัพธ์
+	origin  https://github.com/Sakarin23479/hello-git.git (fetch)
+	origin  https://github.com/Sakarin23479/hello-git.git (push)
+
+git push origin master >> อัพเครื่องขึ้น remote repro ที่ชื่อ origin
+			-master คือ brach
